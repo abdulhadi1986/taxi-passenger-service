@@ -1,16 +1,12 @@
 package com.abdulraham.taxipassenger.model;
 
 
-import java.util.ArrayList;
 public class User {
     private String firstNAme;
     private String lastName;
     private String phoneNum;
     private String email;
 
-
-
-    public User(){};
 
     public String getFirstNAme() {
         return firstNAme;
