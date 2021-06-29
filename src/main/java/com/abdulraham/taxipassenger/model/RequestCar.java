@@ -4,7 +4,7 @@ package com.abdulraham.taxipassenger.model;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
-public class requestCar {
+public class RequestCar {
 
     private User user;
     private int numberOfPassengers;
@@ -13,7 +13,7 @@ public class requestCar {
     private ArrayList<String> toWhere;
 
 
-    public requestCar(){};
+    public RequestCar(){};
 
     public User getUser() {
         return user;
