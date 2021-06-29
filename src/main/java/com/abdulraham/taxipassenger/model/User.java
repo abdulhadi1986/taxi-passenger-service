@@ -2,18 +2,18 @@ package com.abdulraham.taxipassenger.model;
 
 
 public class User {
-    private String firstNAme;
+    private String firstName;
     private String lastName;
     private String phoneNum;
     private String email;
 
 
-    public String getFirstNAme() {
-        return firstNAme;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirstNAme(String firstNAme) {
-        this.firstNAme = firstNAme;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
