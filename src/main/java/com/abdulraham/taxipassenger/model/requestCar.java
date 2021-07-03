@@ -13,8 +13,6 @@ public class requestCar {
     private ArrayList<String> toWhere;
 
 
-    public requestCar(){};
-
     public User getUser() {
         return user;
     }
